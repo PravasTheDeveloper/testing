@@ -6,7 +6,7 @@ function HomePage() {
   const testRoute = async() => {
     const res = await axios.get("/api")
 
-    console.log(res)
+    console.log(res.data)
   }
 
   return (
