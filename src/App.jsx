@@ -5,7 +5,7 @@ import ChatPage from './ChatPage'
 
 function App() {
   return (
-    <Routes>
+    <Routes  basename="/testing-jet-seven.vercel.app">
       <Route path="/" element={<HomePage />}></Route>
       <Route path='/chat' element={<ChatPage />} />
     </Routes>
